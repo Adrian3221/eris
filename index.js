@@ -9,6 +9,7 @@ function Eris(token, options) {
 Eris.AutocompleteInteraction = require("./lib/structures/AutocompleteInteraction");
 Eris.Base = require("./lib/structures/Base");
 Eris.Bucket = require("./lib/util/Bucket");
+Eris.ModalSubmitInteraction = require("./lib/structures/ModalSubmitInteraction.js");
 Eris.Call = require("./lib/structures/Call");
 Eris.CategoryChannel = require("./lib/structures/CategoryChannel");
 Eris.Channel = require("./lib/structures/Channel");
